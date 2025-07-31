@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "listings_pages",
+  "info": {
+    "singularName": "listings-page",
+    "pluralName": "listings-pages",
+    "displayName": "listings Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "Listings_Section": {
+      "type": "dynamiczone",
+      "components": [
+        "elements.listing"
+      ]
+    }
+  }
+}

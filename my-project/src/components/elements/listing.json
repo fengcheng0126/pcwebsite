@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_elements_listings",
+  "info": {
+    "displayName": "listing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "listingTitle": {
+      "type": "string"
+    },
+    "listingImages": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "listingPrice": {
+      "type": "string"
+    }
+  }
+}

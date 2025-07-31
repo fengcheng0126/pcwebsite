@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_call_to_actions",
+  "info": {
+    "displayName": "CallToAction"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.form"
+    }
+  }
+}
